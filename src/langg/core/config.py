@@ -4,7 +4,7 @@ from pydantic import SecretStr
 from dotenv import load_dotenv
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
-from schemas.models import AllModelEnum 
+from langg.schemas import AllModelEnum 
 
 load_dotenv()
 

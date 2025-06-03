@@ -47,8 +47,8 @@ if prompt := st.chat_input("What is up?"):
     # Run the agent graph as in run_agent.py
     config = {
         "configurable": {
-            "thread_id": "1",
-            "user_id": "1"
+            "thread_id": "andi",
+            "user_id": "andi"
         }
     }
     response = graph.invoke({

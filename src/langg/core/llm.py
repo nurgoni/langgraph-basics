@@ -4,13 +4,13 @@ from typing import TypeAlias
 from langchain_openai import ChatOpenAI
 from langchain_anthropic import ChatAnthropic
 
-from schemas.models import (
+from langg.schemas import (
     AllModelEnum, 
     AnthropicModelName, 
     OpenAIModelName
 )
 
-from core import settings
+from langg.core import settings
 
 
 ModelOutput: TypeAlias = (ChatOpenAI | ChatAnthropic)

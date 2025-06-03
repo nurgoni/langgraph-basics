@@ -1,6 +1,6 @@
-from agents import ChatBot
-from memory import PostgresMemory
-from core import settings
+from langg.agents import ChatBot
+from langg.memory import PostgresMemory
+from langg.core import settings
 
 from langchain_core.messages import HumanMessage
 
