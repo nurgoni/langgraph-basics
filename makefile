@@ -1,5 +1,5 @@
 run-agent:
-	PYTHONPATH=src python3 src/run_agent.py
+	PYTHONPATH=src python3 src/langg/run_agent.py
 
 run-streamlit:
-	PYTHONPATH=src streamlit run src/streamlit_app.py
+	PYTHONPATH=src streamlit run src/langg/streamlit_app.py
