@@ -2,7 +2,7 @@ from langgraph.graph import START, END, StateGraph
 from typing import Annotated, TypedDict
 from langgraph.graph.message import add_messages
 
-from core import get_llm, settings
+from langg.core import get_llm, settings
 
 
 class State(TypedDict):
